@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","spk_saw_native");
+$koneksi = mysqli_connect("localhost","appdev","@appDEV1234!!!!","spk_saw_native");
  
 // Check connection
 if (mysqli_connect_errno()){
