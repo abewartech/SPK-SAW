@@ -81,6 +81,10 @@ endif;
                             <p>
                                 Simple Additive Weighting (SAW) adalah salah satu Metode Fuzzy Multiple Attribute Decision Making (FMADM) yang mampu menyelesaikan masalah multiple attribute decision making dengan cara membobotkan semua kriteria dan alternatif yang menghasilkan nilai referensi yang tepat.
                             </p>
+                            <br/>
+                            <img class="img-fluid" src="assets/img/logo.jpeg" />
+                            <p>PT. PANCA  KEMAS  KRIDA  MANUNGGAL</p>
+                            <p>CORRUGATED CARTON BOX INDUSTRY</p>
                         </div>
                     </div>
                 </div>
