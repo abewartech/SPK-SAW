@@ -22,7 +22,7 @@ if(isset($_POST['tambah'])):
 	}	
 	
 	if(empty($errors)):
-		$simpan = mysqli_query($koneksi,"INSERT INTO sub_kriteria (id_sub_kriteria, id_kriteria, nama, nilai) VALUES ('', '$id_kriteria', '$nama', '$nilai')");
+		$simpan = mysqli_query($koneksi,"INSERT INTO sub_kriteria (id_kriteria, nama, nilai) VALUES ('$id_kriteria', '$nama', '$nilai')");
 		
 		if($simpan) {
 			$sts[] = 'Data berhasil disimpan';

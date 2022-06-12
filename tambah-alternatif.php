@@ -16,7 +16,7 @@ if(isset($_POST['submit'])):
 	
 	// Jika lolos validasi lakukan hal di bawah ini
 	if(empty($errors)):
-		$simpan = mysqli_query($koneksi,"INSERT INTO alternatif (id_alternatif, nama) VALUES ('', '$nama')");
+		$simpan = mysqli_query($koneksi,"INSERT INTO alternatif (nama) VALUES ('$nama')");
 		if($simpan) {
 			redirect_to('list-alternatif.php?status=sukses-baru');
 		}else{

@@ -241,7 +241,7 @@ while($alt = mysqli_fetch_array($q2)){
 						<td>
 							<?php
 								echo $nilai_v;
-								mysqli_query($koneksi,"INSERT INTO hasil (id_hasil, id_alternatif, nilai) VALUES ('', '$keys[id_alternatif]', '$nilai_v')");
+								mysqli_query($koneksi,"INSERT INTO hasil (id_alternatif, nilai) VALUES ('$keys[id_alternatif]', '$nilai_v')");
 							?>
 						</td>
 					</tr>

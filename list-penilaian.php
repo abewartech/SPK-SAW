@@ -23,7 +23,7 @@ if(isset($_POST['tambah'])):
 	if(empty($errors)):
 		$i = 0;
 		foreach ($nilai as $key) {
-			$simpan = mysqli_query($koneksi,"INSERT INTO penilaian (id_penilaian, id_alternatif, id_kriteria, nilai) VALUES ('', '$id_alternatif', '$id_kriteria[$i]', '$key')");
+			$simpan = mysqli_query($koneksi,"INSERT INTO penilaian (id_alternatif, id_kriteria, nilai) VALUES ('$id_alternatif', '$id_kriteria[$i]', '$key')");
 			$i++;
 		}
 		if($simpan) {
@@ -53,7 +53,7 @@ if(isset($_POST['edit'])):
 		$i = 0;
 		mysqli_query($koneksi,"DELETE FROM penilaian WHERE id_alternatif = '$id_alternatif';");
 		foreach ($nilai as $key) {
-			$simpan = mysqli_query($koneksi,"INSERT INTO penilaian (id_penilaian, id_alternatif, id_kriteria, nilai) VALUES ('', '$id_alternatif', '$id_kriteria[$i]', '$key')");
+			$simpan = mysqli_query($koneksi,"INSERT INTO penilaian (id_alternatif, id_kriteria, nilai) VALUES ('$id_alternatif', '$id_kriteria[$i]', '$key')");
 			$i++;
 		}
 		if($simpan) {
