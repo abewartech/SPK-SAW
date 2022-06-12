@@ -30,7 +30,7 @@ if(isset($_POST['submit'])):
 	
 	if(empty($errors)):
 		
-		$simpan = mysqli_query($koneksi,"INSERT INTO kriteria (id_kriteria, kode_kriteria, nama, type, bobot, ada_pilihan) VALUES ('', '$kode_kriteria', '$nama', '$type', '$bobot', '$ada_pilihan')");
+		$simpan = mysqli_query($koneksi,"INSERT INTO kriteria (kode_kriteria, nama, type, bobot, ada_pilihan) VALUES ('$kode_kriteria', '$nama', '$type', '$bobot', '$ada_pilihan')");
 		if($simpan) {
 			redirect_to('list-kriteria.php?status=sukses-baru');		
 		}else{
