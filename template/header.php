@@ -29,15 +29,14 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion font-white" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-database"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">SPK SAW</div>
-      </a>
+      <!-- <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+        <div class="sidebar-brand-icon"> -->
+        <!-- <img src="assets/img/logo-small-header.png" class="img-fluid"/> -->
+        <!-- </div>
+      </a> -->
 
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
@@ -174,9 +173,10 @@
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
+          <img src="assets/img/logo-small-header.png" class="img-fluid"/>
+          PT. PANCA KEMAS KRIDA MANUNGGAL
           <!-- Sidebar Toggle (Topbar) -->
-		  <button id="sidebarToggleTop" class="btn text-danger d-md-none rounded-circle mr-3">
+		      <button id="sidebarToggleTop" class="btn text-danger d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
 

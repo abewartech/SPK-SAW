@@ -64,7 +64,7 @@ endif;
     <body class="bg-gradient-danger">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-white shadow-lg pb-3 pt-3 font-weight-bold">
             <div class="container">
-                <a class="navbar-brand text-danger" style="font-weight: 900;" href="login.php"> <i class="fa fa-database mr-2 rotate-n-15"></i> Sistem Pendukung Keputusan Metode SAW</a>
+                <a class="navbar-brand text-danger" style="font-weight: 900;" href="login.php"> <img src="assets/img/logo-small.jpg" class="img-fluid"/> PT. PANCA KEMAS KRIDA MANUNGGAL</a>
             </div>
         </nav>
 
@@ -74,17 +74,20 @@ endif;
 				<div class="col-xl-6 col-lg-6 col-md-6 mt-5">
                     <div class="card bg-none o-hidden border-0 my-5 text-white" style="background: none;">
                         <div class="text-justify card-body p-0">
-                            <h4 style="font-weight: 800;">Sistem Pendukung Keputusan Metode SAW</h4>
+                            <h4 style="font-weight: 800;">PT. PANCA KEMAS KRIDA MANUNGGAL</h4>
                             <p class="pt-4">
-                                Sistem Pendukung Keputusan (SPK) merupakan suatu sistem informasi spesifik yang ditujukan untuk membantu manajemen dalam mengambil keputusan yang berkaitan dengan persoalan yang bersifat semi terstruktur.
-                            </p>
-                            <p>
-                                Simple Additive Weighting (SAW) adalah salah satu Metode Fuzzy Multiple Attribute Decision Making (FMADM) yang mampu menyelesaikan masalah multiple attribute decision making dengan cara membobotkan semua kriteria dan alternatif yang menghasilkan nilai referensi yang tepat.
+                            Tersedia Berbagai Macam Ukuran Carton Box Cetak / Polos Dengan Kualitas Kertas Mutu Terbaik.
                             </p>
                             <br/>
-                            <img class="img-fluid" src="assets/img/logo-removebg-preview.png" />
+                            Jl. Mayor Idrus No. 10A Rt 02 Rw 05, Tapos, Tapos-Depok 16458
+                            <br/>
+Telp. (021) 8757803, 87912036, 87913592 Fax. (021) 875 8042
+<br/>
+E-mail : pt.pancakemas@gmail.com
+                            <br/>
+                            <!-- <img class="img-fluid" src="assets/img/logo-removebg-preview.png" />
                             <p>PT. PANCA  KEMAS  KRIDA  MANUNGGAL</p>
-                            <p>CORRUGATED CARTON BOX INDUSTRY</p>
+                            <p>CORRUGATED CARTON BOX INDUSTRY</p> -->
                         </div>
                     </div>
                 </div>

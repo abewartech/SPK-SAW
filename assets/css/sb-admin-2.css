@@ -9905,7 +9905,7 @@ a:focus {
 
 .bg-gradient-danger {
   background-color: #0000FD;
-  background-image: linear-gradient(180deg, #0000FD 10%, #be2617 100%);
+  /* background-image: linear-gradient(180deg, #0000FD 10%, #be2617 100%); */
   background-size: cover;
 }
 
@@ -10628,15 +10628,15 @@ a:focus {
 }
 
 .sidebar-dark .sidebar-heading {
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
 }
 
 .sidebar-dark .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
 }
 
 .sidebar-dark .nav-item .nav-link i {
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover {
