@@ -88,7 +88,7 @@ endif;
 	<div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<th width="5%">No</th>
 						<th>Alternatif</th>

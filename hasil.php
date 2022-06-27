@@ -23,7 +23,7 @@ require_once('template/header.php');
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<th>Nama Alternatif</th>
 						<th>Nilai</th>

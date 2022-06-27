@@ -41,7 +41,7 @@ while($alt = mysqli_fetch_array($q2)){
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<th width="5%" rowspan="2">No</th>
 						<th>Nama Alternatif</th>
@@ -92,7 +92,7 @@ while($alt = mysqli_fetch_array($q2)){
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<th width="5%" rowspan="2">No</th>
 						<th>Nama Alternatif</th>
@@ -157,7 +157,7 @@ while($alt = mysqli_fetch_array($q2)){
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<?php foreach ($kriteria as $key): ?>
 						<th><?= $key['kode_kriteria'] ?> (<?= $key['type'] ?>)</th>
@@ -189,7 +189,7 @@ while($alt = mysqli_fetch_array($q2)){
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-danger text-white">
+				<thead class="bg-info text-white">
 					<tr align="center">
 						<th width="5%" rowspan="2">No</th>
 						<th>Nama Alternatif</th>
