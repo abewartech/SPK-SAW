@@ -19,10 +19,10 @@ require_once('template/header.php');
 	?>
 	
     <!-- Content Row -->
-    <div class="alert alert-success">
+    <!-- <div class="alert alert-success">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         Selamat datang <span class="text-uppercase"><b><?php echo $_SESSION['username']; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
-    </div>
+    </div> -->
     <div class="row">
 
         <div class="col-xl-4 col-md-6 mb-4">
@@ -119,10 +119,10 @@ require_once('template/header.php');
 	}elseif($user_role == 'user') {
 	?>
 	<!-- Content Row -->
-    <div class="alert alert-success">
+    <!-- <div class="alert alert-success">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         Selamat datang <span class="text-uppercase"><b><?php echo $_SESSION['username']; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
-    </div>
+    </div> -->
     <div class="row">
         <div class="col-xl-4 col-md-6 mb-4">
             <div class="card border-left-success shadow h-100 py-2">
