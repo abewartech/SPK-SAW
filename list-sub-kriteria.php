@@ -99,7 +99,7 @@ if($cek <= 0) {
 ?>
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Daftar Data Sub Kriteria</h6>
     </div>
 
@@ -115,7 +115,7 @@ if($cek <= 0) {
 ?>
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <div class="d-sm-flex align-items-center justify-content-between">
 			<h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> <?= $data['nama']." (".$data['kode_kriteria'].")" ?></h6>
 			

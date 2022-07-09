@@ -71,7 +71,7 @@ require_once('template/header.php');
 
 <form action="" method="post">
 	<div class="card shadow mb-4">
-		<div class="card-header py-3">
+		<div class="card-header py-3 text-center">
 			<h6 class="m-0 font-weight-bold text-danger"><i class="fas fa-fw fa-edit"></i> Edit Data Profile</h6>
 		</div>
 		<?php

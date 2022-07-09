@@ -35,7 +35,7 @@ endif;
 
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Daftar Data Alternatif</h6>
     </div>
 

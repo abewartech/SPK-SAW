@@ -34,7 +34,7 @@ while($alt = mysqli_fetch_array($q2)){
 
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Matrix Keputusan (X)</h6>
     </div>
 
@@ -85,7 +85,7 @@ while($alt = mysqli_fetch_array($q2)){
 
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Matriks Ternormalisasi (R)</h6>
     </div>
 
@@ -150,7 +150,7 @@ while($alt = mysqli_fetch_array($q2)){
 
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Bobot Preferensi (W)</h6>
     </div>
 
@@ -182,7 +182,7 @@ while($alt = mysqli_fetch_array($q2)){
 
 <div class="card shadow mb-4">
     <!-- /.card-header -->
-    <div class="card-header py-3">
+    <div class="card-header py-3 text-center">
         <h6 class="m-0 font-weight-bold text-danger"><i class="fa fa-table"></i> Perhitungan (V))</h6>
     </div>
 
